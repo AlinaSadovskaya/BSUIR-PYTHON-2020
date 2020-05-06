@@ -1,0 +1,606 @@
+INFO 2020-04-29 19:37:46,467 basehttp 588 2684 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 19:37:49,227 basehttp 588 16152 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 19:37:49,272 basehttp 588 13204 "GET /static/css/bootstrap-theme.css HTTP/1.1" 200 22474
+INFO 2020-04-29 19:37:49,284 basehttp 588 17724 "GET /static/fon.jpg HTTP/1.1" 200 189788
+INFO 2020-04-29 19:37:49,285 basehttp 588 15992 "GET /static/js/bootstrap.js HTTP/1.1" 200 65813
+INFO 2020-04-29 19:37:49,289 basehttp 588 17564 "GET /static/css/bootstrap.css HTTP/1.1" 200 137067
+INFO 2020-04-29 19:37:49,300 basehttp 588 17132 "GET /static/js/jquery-3.3.1.js HTTP/1.1" 200 271751
+INFO 2020-04-29 19:37:49,308 basehttp 588 15516 "GET /static/js/materialize.js HTTP/1.1" 200 267975
+INFO 2020-04-29 19:37:49,312 basehttp 588 5940 "GET /static/css/materialize.css HTTP/1.1" 200 196321
+INFO 2020-04-29 19:37:49,317 basehttp 588 17020 "GET /static/css/main.css HTTP/1.1" 200 33150
+INFO 2020-04-29 19:37:49,319 basehttp 588 15272 "GET /static/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2020-04-29 19:37:49,320 basehttp 588 14004 "GET /static/js/dateFormat.js HTTP/1.1" 200 4584
+INFO 2020-04-29 19:37:49,324 basehttp 588 6600 "GET /static/css/animate.css HTTP/1.1" 200 61382
+INFO 2020-04-29 19:37:50,097 basehttp 588 16696 "GET /static/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 0
+INFO 2020-04-29 19:37:50,114 basehttp 588 7292 "GET /static/fonts/fontawesome-webfont.ttf?v=4.0.3 HTTP/1.1" 200 0
+INFO 2020-04-29 19:38:04,989 basehttp 588 5096 "POST /marshrutka/search HTTP/1.1" 200 5110
+INFO 2020-04-29 19:38:11,685 basehttp 588 10588 "GET /marshrutka/book/1/1-2/2A/2020-04-12 HTTP/1.1" 200 4611
+INFO 2020-04-29 19:38:17,151 views 588 18232 b Add ticket
+INFO 2020-04-29 19:38:17,165 basehttp 588 18232 "POST /marshrutka/confirm/1/1-2/2A/2020-04-12 HTTP/1.1" 200 4099
+INFO 2020-04-29 19:38:19,331 basehttp 588 14344 "GET /marshrutka/profile HTTP/1.1" 200 3499
+INFO 2020-04-29 19:38:24,198 basehttp 588 7108 "GET /marshrutka/logout/ HTTP/1.1" 302 0
+INFO 2020-04-29 19:38:24,208 basehttp 588 2944 "GET /marshrutka/ HTTP/1.1" 302 0
+INFO 2020-04-29 19:38:24,221 basehttp 588 3284 "GET /marshrutka/login?next=/marshrutka/ HTTP/1.1" 301 0
+INFO 2020-04-29 19:38:24,338 basehttp 588 14204 "GET /marshrutka/login/?next=/marshrutka/ HTTP/1.1" 200 2663
+INFO 2020-04-29 19:39:52,385 basehttp 588 15588 "POST /marshrutka/login/?next=/marshrutka/ HTTP/1.1" 302 0
+INFO 2020-04-29 19:39:52,614 basehttp 588 16784 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 19:39:58,894 basehttp 588 14876 "GET /marshrutka/profile HTTP/1.1" 200 2305
+INFO 2020-04-29 19:40:02,640 basehttp 588 1104 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 19:40:05,205 basehttp 588 3312 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 19:40:08,161 basehttp 588 15960 "GET /news/ HTTP/1.1" 200 6433
+INFO 2020-04-29 19:40:13,964 basehttp 588 14440 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-04-29 19:40:14,228 basehttp 588 17416 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2018
+INFO 2020-04-29 19:40:14,259 basehttp 588 6420 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+INFO 2020-04-29 19:40:26,605 basehttp 588 18248 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-04-29 19:40:26,807 basehttp 588 10640 "GET /admin/ HTTP/1.1" 200 9808
+INFO 2020-04-29 19:41:41,197 basehttp 588 7988 "GET /admin/news/articles/add/ HTTP/1.1" 200 5299
+INFO 2020-04-29 19:41:41,391 basehttp 588 17576 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-04-29 19:42:34,403 basehttp 588 5428 "POST /admin/news/articles/add/ HTTP/1.1" 302 0
+INFO 2020-04-29 19:42:34,706 basehttp 588 17504 "GET /admin/news/articles/ HTTP/1.1" 200 4604
+INFO 2020-04-29 19:42:34,956 basehttp 588 16536 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-04-29 19:42:49,871 basehttp 588 9732 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 19:42:52,846 basehttp 588 9188 "GET /news/ HTTP/1.1" 200 6917
+INFO 2020-04-29 19:42:52,902 basehttp 588 13464 "GET /static/image/new.jpg HTTP/1.1" 200 44410
+INFO 2020-04-29 19:42:56,218 basehttp 588 13184 "GET /news/1 HTTP/1.1" 200 6274
+INFO 2020-04-29 19:43:03,657 basehttp 588 15924 "GET /news/ HTTP/1.1" 200 6917
+INFO 2020-04-29 19:43:05,510 basehttp 588 13204 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 19:46:55,633 basehttp 588 4464 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 19:46:58,053 basehttp 588 14060 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 20:33:35,184 views 4740 9640 Alina Add ticket
+INFO 2020-04-29 21:16:13,292 basehttp 13596 12608 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 21:48:47,821 basehttp 14268 15228 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 21:51:09,011 basehttp 10084 16044 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 22:12:05,504 basehttp 12324 4080 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 22:12:10,923 basehttp 12324 17844 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 22:12:30,086 basehttp 12324 17560 "POST /marshrutka/search HTTP/1.1" 200 5109
+INFO 2020-04-29 22:12:34,698 basehttp 12324 15612 "GET /marshrutka/book/1/1-2/2A/2020-04-12 HTTP/1.1" 200 4610
+INFO 2020-04-29 22:12:39,682 views 12324 4108 b Add ticket
+INFO 2020-04-29 22:12:39,697 basehttp 12324 4108 "POST /marshrutka/confirm/1/1-2/2A/2020-04-12 HTTP/1.1" 200 4099
+INFO 2020-04-29 22:12:43,440 basehttp 12324 4464 "GET /marshrutka/profile HTTP/1.1" 200 4693
+INFO 2020-04-29 22:12:51,154 basehttp 12324 17840 "GET /marshrutka/cancel/47 HTTP/1.1" 200 3505
+INFO 2020-04-29 22:12:53,080 basehttp 12324 3748 "POST /marshrutka/cancel/47 HTTP/1.1" 302 0
+INFO 2020-04-29 22:12:53,254 basehttp 12324 2036 "GET /marshrutka/profile HTTP/1.1" 200 3499
+INFO 2020-04-29 22:20:18,657 basehttp 15492 12552 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 22:20:21,827 basehttp 15492 15468 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 22:20:37,740 basehttp 15492 1508 "POST /marshrutka/search HTTP/1.1" 200 5109
+INFO 2020-04-29 22:20:41,755 basehttp 15492 17516 "GET /marshrutka/book/1/1-2/1A/2020-04-12 HTTP/1.1" 200 4610
+INFO 2020-04-29 22:20:45,397 views 15492 18384 n Add ticket
+INFO 2020-04-29 22:20:45,416 basehttp 15492 18384 "POST /marshrutka/confirm/1/1-2/1A/2020-04-12 HTTP/1.1" 200 4099
+INFO 2020-04-29 22:20:47,536 basehttp 15492 7660 "GET /marshrutka/profile HTTP/1.1" 200 4693
+INFO 2020-04-29 22:24:39,016 basehttp 3512 8700 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 22:24:41,629 basehttp 3512 7984 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 22:25:06,373 basehttp 3512 14668 "POST /marshrutka/search HTTP/1.1" 200 5109
+INFO 2020-04-29 22:25:18,782 basehttp 3512 7116 "GET /marshrutka/book/1/1-2/2A/2020-04-12 HTTP/1.1" 200 4610
+INFO 2020-04-29 22:25:24,363 views 3512 5640 m Add ticket
+INFO 2020-04-29 22:25:24,379 basehttp 3512 5640 "POST /marshrutka/confirm/1/1-2/2A/2020-04-12 HTTP/1.1" 200 4099
+INFO 2020-04-29 22:25:26,370 basehttp 3512 1084 "GET /marshrutka/profile HTTP/1.1" 200 5887
+INFO 2020-04-29 22:55:55,266 basehttp 3512 15648 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 22:55:57,428 basehttp 3512 11116 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 22:56:22,710 basehttp 3512 17844 "POST /marshrutka/search HTTP/1.1" 200 3628
+INFO 2020-04-29 22:56:25,116 basehttp 3512 5356 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 23:01:59,459 basehttp 17308 11252 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 23:02:02,127 basehttp 17308 12956 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 23:02:12,920 basehttp 17308 9104 "POST /marshrutka/search HTTP/1.1" 200 5109
+INFO 2020-04-29 23:02:16,467 basehttp 17308 15812 "GET /marshrutka/book/1/1-2/2A/2020-04-12 HTTP/1.1" 200 4610
+INFO 2020-04-29 23:02:19,959 views 17308 9720 nnn Add ticket
+INFO 2020-04-29 23:02:19,975 basehttp 17308 9720 "POST /marshrutka/confirm/1/1-2/2A/2020-04-12 HTTP/1.1" 200 4099
+INFO 2020-04-29 23:02:21,948 basehttp 17308 3060 "GET /marshrutka/profile HTTP/1.1" 200 7083
+INFO 2020-04-29 23:04:20,302 basehttp 14220 6600 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 23:04:36,104 basehttp 14220 17788 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 23:13:27,521 basehttp 3504 10840 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 23:13:51,702 basehttp 11620 16316 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-29 23:14:05,223 basehttp 11620 9352 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 23:14:08,287 basehttp 11620 14468 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-29 23:14:10,005 basehttp 11620 10216 "GET /marshrutka/profile HTTP/1.1" 200 7083
+INFO 2020-04-29 23:14:14,396 basehttp 11620 10128 "GET /marshrutka/logout/ HTTP/1.1" 302 0
+INFO 2020-04-29 23:14:14,411 basehttp 11620 7696 "GET /marshrutka/ HTTP/1.1" 302 0
+INFO 2020-04-29 23:14:14,427 basehttp 11620 10200 "GET /marshrutka/login?next=/marshrutka/ HTTP/1.1" 301 0
+INFO 2020-04-29 23:14:14,568 basehttp 11620 7408 "GET /marshrutka/login/?next=/marshrutka/ HTTP/1.1" 200 2663
+INFO 2020-04-30 09:35:01,189 basehttp 18832 17560 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-30 09:35:06,814 basehttp 18832 2236 "GET /marshrutka/ HTTP/1.1" 302 0
+INFO 2020-04-30 09:35:06,835 basehttp 18832 9904 "GET /marshrutka/login?next=/marshrutka/ HTTP/1.1" 301 0
+INFO 2020-04-30 09:35:07,011 basehttp 18832 6556 "GET /marshrutka/login/?next=/marshrutka/ HTTP/1.1" 200 2663
+INFO 2020-04-30 09:35:43,676 basehttp 18832 8644 "POST /marshrutka/login/?next=/marshrutka/ HTTP/1.1" 302 0
+INFO 2020-04-30 09:35:43,914 basehttp 18832 1736 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-30 09:40:26,466 basehttp 20328 13596 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-30 09:40:34,368 basehttp 20328 10536 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-30 11:16:41,536 basehttp 1656 18292 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-30 11:16:51,200 basehttp 1656 4940 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-30 17:12:27,706 basehttp 23828 13368 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-30 17:13:22,195 basehttp 23828 9196 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-30 17:13:25,608 basehttp 23828 1760 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-30 17:13:28,795 basehttp 23828 4112 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-30 17:13:34,137 basehttp 23828 8384 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-04-30 17:13:34,499 basehttp 23828 10456 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2018
+INFO 2020-04-30 17:13:49,228 basehttp 23828 14928 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2179
+INFO 2020-04-30 17:13:59,102 basehttp 23828 10448 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-04-30 17:13:59,362 basehttp 23828 8692 "GET /admin/ HTTP/1.1" 200 9838
+INFO 2020-04-30 17:14:02,643 basehttp 23828 9464 "GET /admin/auth/user/ HTTP/1.1" 200 7547
+INFO 2020-04-30 17:14:02,713 basehttp 23828 16244 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2020-04-30 17:14:02,855 basehttp 23828 19848 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-04-30 17:14:02,943 basehttp 23828 8832 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2020-04-30 17:14:10,035 basehttp 23828 11504 "POST /admin/auth/user/ HTTP/1.1" 200 3628
+INFO 2020-04-30 17:14:11,727 basehttp 23828 9552 "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2020-04-30 17:14:11,986 basehttp 23828 8596 "GET /admin/auth/user/ HTTP/1.1" 200 7216
+INFO 2020-04-30 17:14:12,148 basehttp 23828 17964 "GET /admin/jsi18n/ HTTP/1.1" 200 3185
+INFO 2020-04-30 17:14:16,184 basehttp 23828 3364 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-30 17:14:19,222 basehttp 23828 15308 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-30 17:14:21,958 basehttp 23828 5576 "GET /marshrutka/logout/ HTTP/1.1" 302 0
+INFO 2020-04-30 17:14:21,970 basehttp 23828 16844 "GET /marshrutka/ HTTP/1.1" 302 0
+INFO 2020-04-30 17:14:21,981 basehttp 23828 10136 "GET /marshrutka/login?next=/marshrutka/ HTTP/1.1" 301 0
+INFO 2020-04-30 17:14:22,064 basehttp 23828 9556 "GET /marshrutka/login/?next=/marshrutka/ HTTP/1.1" 200 2663
+INFO 2020-04-30 17:14:24,224 basehttp 23828 16892 "GET /marshrutka/signup/ HTTP/1.1" 200 2672
+INFO 2020-04-30 17:14:44,408 basehttp 23828 7576 "POST /marshrutka/signup/ HTTP/1.1" 200 1761
+INFO 2020-04-30 17:14:58,659 basehttp 23828 14300 "GET /marshrutka/activate/Mzk/5g3-ecc25f56172c36ce7c70/ HTTP/1.1" 200 1629
+INFO 2020-04-30 17:15:01,356 basehttp 23828 8948 "GET /marshrutka/login/ HTTP/1.1" 200 2663
+INFO 2020-04-30 17:15:16,755 basehttp 23828 8404 "POST /marshrutka/login/ HTTP/1.1" 302 0
+INFO 2020-04-30 17:15:16,902 basehttp 23828 3060 "GET /marshrutka/ HTTP/1.1" 200 4749
+INFO 2020-04-30 17:15:26,431 basehttp 23828 8712 "GET / HTTP/1.1" 200 29544
+INFO 2020-04-30 17:15:36,418 basehttp 23828 18972 "POST / HTTP/1.1" 200 29544
+INFO 2020-05-05 22:38:42,803 basehttp 15968 16612 "GET / HTTP/1.1" 200 29544
+INFO 2020-05-05 22:38:42,880 basehttp 15968 12924 "GET /static/web/css/bootstrap.css HTTP/1.1" 200 141622
+INFO 2020-05-05 22:38:42,907 basehttp 15968 14956 "GET /static/web/js/jquery-2.2.3.min.js HTTP/1.1" 200 85659
+INFO 2020-05-05 22:38:42,924 basehttp 15968 13356 "GET /static/image/Karta.png HTTP/1.1" 200 62421
+INFO 2020-05-05 22:38:42,958 basehttp 15968 15552 "GET /static/image/068.jpg HTTP/1.1" 200 45056
+INFO 2020-05-05 22:38:43,051 basehttp 15968 10032 "GET /static/web/css/font-awesome.css HTTP/1.1" 200 37414
+INFO 2020-05-05 22:38:43,085 basehttp 15968 14372 "GET /static/image/fon2.jpg HTTP/1.1" 200 74078
+INFO 2020-05-05 22:38:43,100 basehttp 15968 2724 "GET /static/web/css/lightbox.css HTTP/1.1" 200 4054
+INFO 2020-05-05 22:38:43,103 basehttp 15968 8236 "GET /static/image/k1.jpg HTTP/1.1" 200 42550
+INFO 2020-05-05 22:38:43,118 basehttp 15968 14912 "GET /static/image/k5.jpg HTTP/1.1" 200 61646
+INFO 2020-05-05 22:38:43,122 basehttp 15968 13324 "GET /static/image/k3.jpg HTTP/1.1" 200 69452
+INFO 2020-05-05 22:38:43,124 basehttp 15968 9660 "GET /static/image/k8.jpg HTTP/1.1" 200 72895
+INFO 2020-05-05 22:38:43,129 basehttp 15968 9600 "GET /static/web/images/g7.jpg HTTP/1.1" 200 35325
+INFO 2020-05-05 22:38:43,135 basehttp 15968 7056 "GET /static/web/images/t1.jpg HTTP/1.1" 200 14593
+INFO 2020-05-05 22:38:43,143 basehttp 15968 15520 "GET /static/web/images/t2.jpg HTTP/1.1" 200 11516
+INFO 2020-05-05 22:38:43,150 basehttp 15968 14044 "GET /static/web/images/t4.jpg HTTP/1.1" 200 17575
+INFO 2020-05-05 22:38:43,157 basehttp 15968 16708 "GET /static/web/js/index.js HTTP/1.1" 200 759
+INFO 2020-05-05 22:38:43,158 basehttp 15968 3764 "GET /static/web/js/easing.js HTTP/1.1" 200 4759
+INFO 2020-05-05 22:38:43,162 basehttp 15968 14724 "GET /static/web/js/jarallax.js HTTP/1.1" 200 14718
+INFO 2020-05-05 22:38:43,170 basehttp 15968 14160 "GET /static/web/js/easy-responsive-tabs.js HTTP/1.1" 200 6489
+INFO 2020-05-05 22:38:43,171 basehttp 15968 6608 "GET /static/web/css/style.css HTTP/1.1" 200 48255
+INFO 2020-05-05 22:38:43,179 basehttp 15968 5988 "GET /static/image/k4.jpg HTTP/1.1" 200 41708
+INFO 2020-05-05 22:38:43,194 basehttp 15968 16740 "GET /static/web/js/lightbox-plus-jquery.min.js HTTP/1.1" 200 93077
+INFO 2020-05-05 22:38:43,195 basehttp 15968 15076 "GET /static/image/k2.jpg HTTP/1.1" 200 72384
+INFO 2020-05-05 22:38:43,197 basehttp 15968 14000 "GET /static/web/images/t3.jpg HTTP/1.1" 200 83507
+INFO 2020-05-05 22:38:43,198 basehttp 15968 17088 "GET /static/web/images/2.jpg HTTP/1.1" 200 105521
+INFO 2020-05-05 22:38:43,201 basehttp 15968 5344 "GET /static/web/js/SmoothScroll.min.js HTTP/1.1" 200 13725
+INFO 2020-05-05 22:38:43,208 basehttp 15968 6640 "GET /static/image/k7.jpg HTTP/1.1" 200 68268
+INFO 2020-05-05 22:38:43,216 basehttp 15968 8200 "GET /static/image/k6.jpg HTTP/1.1" 200 53135
+INFO 2020-05-05 22:38:43,219 basehttp 15968 16344 "GET /static/web/js/bootstrap.js HTTP/1.1" 200 67546
+INFO 2020-05-05 22:38:43,219 basehttp 15968 9940 "GET /static/web/images/g5.jpg HTTP/1.1" 200 57411
+INFO 2020-05-05 22:38:43,222 basehttp 15968 10692 "GET /static/web/js/move-top.js HTTP/1.1" 200 1331
+INFO 2020-05-05 22:38:43,223 basehttp 15968 15132 "GET /static/web/css/easy-responsive-tabs.css HTTP/1.1" 200 4680
+INFO 2020-05-05 22:38:43,287 basehttp 15968 1340 "GET /static/image/fon.jpg HTTP/1.1" 200 167229
+INFO 2020-05-05 22:38:43,336 basehttp 15968 8136 "GET /static/web/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+INFO 2020-05-05 22:38:43,350 basehttp 15968 14884 "GET /static/web/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 71896
+INFO 2020-05-05 22:38:43,392 basehttp 15968 11680 "GET /static/web/images/slide1.jpg HTTP/1.1" 200 44860
+INFO 2020-05-05 22:38:43,408 basehttp 15968 3828 "GET /static/web/images/loading.gif HTTP/1.1" 200 8476
+INFO 2020-05-05 22:38:43,415 basehttp 15968 1496 "GET /static/web/images/close.png HTTP/1.1" 200 280
+INFO 2020-05-05 22:38:43,533 basehttp 15968 6340 "GET /static/web/images/banner.jpg HTTP/1.1" 200 174095
+INFO 2020-05-05 22:38:43,604 basehttp 15968 10332 "GET /static/web/images/img-sprite.png HTTP/1.1" 200 3205
+INFO 2020-05-05 22:38:43,614 basehttp 15968 6156 "GET /static/web/images/sub.jpg HTTP/1.1" 200 346729
+INFO 2020-05-05 22:38:43,853 basehttp 15968 14780 "GET /static/web/images/move-up.png HTTP/1.1" 200 3407
+ERROR 2020-05-05 22:38:56,064 exception 15968 9148 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\piton\marshrutka\firstpaige\views.py", line 13, in index
+    fail_silently=False)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 70, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials n131sm5532491wmf.35 - gsmtp')
+ERROR 2020-05-05 22:38:56,399 basehttp 15968 9148 "POST / HTTP/1.1" 500 106372
+ERROR 2020-05-05 22:42:07,469 exception 15968 13728 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\piton\marshrutka\firstpaige\views.py", line 13, in index
+    fail_silently=False)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 70, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials e17sm4834686wrr.32 - gsmtp')
+ERROR 2020-05-05 22:42:07,811 basehttp 15968 13728 "POST / HTTP/1.1" 500 106365
+ERROR 2020-05-05 22:46:07,062 exception 15968 1460 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\piton\marshrutka\firstpaige\views.py", line 13, in index
+    fail_silently=False)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 70, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials f5sm4905737wrp.70 - gsmtp')
+ERROR 2020-05-05 22:46:07,428 basehttp 15968 1460 "POST / HTTP/1.1" 500 106358
+ERROR 2020-05-05 22:46:12,171 exception 15968 12524 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\piton\marshrutka\firstpaige\views.py", line 13, in index
+    fail_silently=False)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 70, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 60sm5143736wrr.7 - gsmtp')
+ERROR 2020-05-05 22:46:12,422 basehttp 15968 12524 "POST / HTTP/1.1" 500 106351
+INFO 2020-05-05 22:50:25,464 basehttp 13512 17316 "GET / HTTP/1.1" 200 29544
+INFO 2020-05-05 22:50:25,865 basehttp 13512 16088 "GET /static/web/images/banner.jpg HTTP/1.1" 200 174095
+INFO 2020-05-05 22:50:25,930 basehttp 13512 1892 "GET /static/web/images/img-sprite.png HTTP/1.1" 200 3205
+INFO 2020-05-05 22:50:25,956 basehttp 13512 11256 "GET /static/web/images/sub.jpg HTTP/1.1" 200 346729
+ERROR 2020-05-05 22:50:35,529 exception 13512 3428 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\piton\marshrutka\firstpaige\views.py", line 13, in index
+    fail_silently=False)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 70, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials w83sm5663245wmb.37 - gsmtp')
+ERROR 2020-05-05 22:50:35,887 basehttp 13512 3428 "POST / HTTP/1.1" 500 106341
+INFO 2020-05-05 22:56:23,665 basehttp 10160 14920 "GET / HTTP/1.1" 200 29544
+INFO 2020-05-05 22:56:23,845 basehttp 10160 9708 "GET /static/web/images/img-sprite.png HTTP/1.1" 200 3205
+INFO 2020-05-05 22:56:23,847 basehttp 10160 11600 "GET /static/web/images/banner.jpg HTTP/1.1" 200 24576
+ERROR 2020-05-05 22:56:23,850 basehttp 10160 11600 "GET /static/web/images/banner.jpg HTTP/1.1" 500 59
+INFO 2020-05-05 22:56:23,921 basehttp 10160 14132 "GET /static/web/images/sub.jpg HTTP/1.1" 200 16384
+ERROR 2020-05-05 22:56:23,922 basehttp 10160 14132 "GET /static/web/images/sub.jpg HTTP/1.1" 500 59
+INFO 2020-05-05 22:56:41,254 basehttp 4328 2752 "GET / HTTP/1.1" 200 29544
+INFO 2020-05-05 22:56:41,607 basehttp 4328 7040 "GET /static/web/images/banner.jpg HTTP/1.1" 200 174095
+INFO 2020-05-05 22:56:41,693 basehttp 4328 13732 "GET /static/web/images/img-sprite.png HTTP/1.1" 200 3205
+INFO 2020-05-05 22:56:41,885 basehttp 4328 13808 "GET /static/web/images/sub.jpg HTTP/1.1" 200 346729
+ERROR 2020-05-05 22:57:21,630 exception 4328 14156 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\piton\marshrutka\firstpaige\views.py", line 13, in index
+    fail_silently=False)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 70, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials l1sm5229887wrc.24 - gsmtp')
+ERROR 2020-05-05 22:57:21,992 basehttp 4328 14156 "POST / HTTP/1.1" 500 106074
+ERROR 2020-05-05 22:57:49,168 exception 4328 16092 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\piton\marshrutka\firstpaige\views.py", line 13, in index
+    fail_silently=False)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 70, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials f8sm5061728wrm.8 - gsmtp')
+ERROR 2020-05-05 22:57:49,410 basehttp 4328 16092 "POST / HTTP/1.1" 500 106068
+ERROR 2020-05-05 22:59:54,911 exception 4328 6668 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\piton\marshrutka\firstpaige\views.py", line 13, in index
+    fail_silently=False)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 70, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 77sm5644879wrc.6 - gsmtp')
+ERROR 2020-05-05 22:59:55,211 basehttp 4328 6668 "POST / HTTP/1.1" 500 106068
+ERROR 2020-05-05 23:00:04,013 exception 4328 6760 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\piton\marshrutka\firstpaige\views.py", line 13, in index
+    fail_silently=False)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 70, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials x18sm5142061wmi.29 - gsmtp')
+ERROR 2020-05-05 23:00:04,241 basehttp 4328 6760 "POST / HTTP/1.1" 500 106082
+INFO 2020-05-05 23:03:14,600 basehttp 3760 276 "GET / HTTP/1.1" 200 29544
+ERROR 2020-05-05 23:03:22,147 exception 3760 13808 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\piton\marshrutka\firstpaige\views.py", line 13, in index
+    fail_silently=False)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\message.py", line 294, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 103, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\site-packages\django\core\mail\backends\smtp.py", line 70, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\Алина Садовская\AppData\Local\Programs\Python\Python37-32\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials j16sm3106381wru.13 - gsmtp')
+ERROR 2020-05-05 23:03:22,435 basehttp 3760 13808 "POST / HTTP/1.1" 500 106092
+INFO 2020-05-05 23:04:42,497 basehttp 2608 9424 "GET / HTTP/1.1" 200 29544
+INFO 2020-05-05 23:04:56,083 basehttp 2608 11432 "POST / HTTP/1.1" 200 29544
+INFO 2020-05-06 14:24:28,930 basehttp 15920 1428 "GET / HTTP/1.1" 200 29544
+INFO 2020-05-06 14:24:29,001 basehttp 15920 4040 "GET /static/web/css/lightbox.css HTTP/1.1" 200 4054
+INFO 2020-05-06 14:24:29,084 basehttp 15920 4496 "GET /static/web/js/jquery-2.2.3.min.js HTTP/1.1" 200 85659
+INFO 2020-05-06 14:24:29,169 basehttp 15920 5424 "GET /static/web/css/style.css HTTP/1.1" 200 48255
+INFO 2020-05-06 14:24:29,228 basehttp 15920 13404 "GET /static/image/068.jpg HTTP/1.1" 200 45056
+INFO 2020-05-06 14:24:29,241 basehttp 15920 7904 "GET /static/image/k2.jpg HTTP/1.1" 200 72384
+INFO 2020-05-06 14:24:29,242 basehttp 15920 12708 "GET /static/image/k1.jpg HTTP/1.1" 200 42550
+INFO 2020-05-06 14:24:29,243 basehttp 15920 11656 "GET /static/image/k3.jpg HTTP/1.1" 200 69452
+INFO 2020-05-06 14:24:29,245 basehttp 15920 4616 "GET /static/web/css/easy-responsive-tabs.css HTTP/1.1" 200 4680
+INFO 2020-05-06 14:24:29,261 basehttp 15920 14132 "GET /static/image/fon2.jpg HTTP/1.1" 200 74078
+INFO 2020-05-06 14:24:29,262 basehttp 15920 10504 "GET /static/web/css/font-awesome.css HTTP/1.1" 200 37414
+INFO 2020-05-06 14:24:29,265 basehttp 15920 14344 "GET /static/image/k8.jpg HTTP/1.1" 200 72895
+INFO 2020-05-06 14:24:29,282 basehttp 15920 7380 "GET /static/web/images/g7.jpg HTTP/1.1" 200 35325
+INFO 2020-05-06 14:24:29,283 basehttp 15920 14388 "GET /static/web/images/g5.jpg HTTP/1.1" 200 57411
+INFO 2020-05-06 14:24:29,284 basehttp 15920 5008 "GET /static/web/js/lightbox-plus-jquery.min.js HTTP/1.1" 200 93077
+INFO 2020-05-06 14:24:29,285 basehttp 15920 15072 "GET /static/web/images/t1.jpg HTTP/1.1" 200 14593
+INFO 2020-05-06 14:24:29,301 basehttp 15920 3464 "GET /static/web/images/t4.jpg HTTP/1.1" 200 17575
+INFO 2020-05-06 14:24:29,302 basehttp 15920 14244 "GET /static/web/js/easing.js HTTP/1.1" 200 4759
+INFO 2020-05-06 14:24:29,304 basehttp 15920 6876 "GET /static/web/js/bootstrap.js HTTP/1.1" 200 67546
+INFO 2020-05-06 14:24:29,306 basehttp 15920 13368 "GET /static/web/images/t3.jpg HTTP/1.1" 200 83507
+INFO 2020-05-06 14:24:29,311 basehttp 15920 11136 "GET /static/web/js/index.js HTTP/1.1" 200 759
+INFO 2020-05-06 14:24:29,321 basehttp 15920 1272 "GET /static/image/Karta.png HTTP/1.1" 200 62421
+INFO 2020-05-06 14:24:29,323 basehttp 15920 4880 "GET /static/image/k7.jpg HTTP/1.1" 200 68268
+INFO 2020-05-06 14:24:29,336 basehttp 15920 6932 "GET /static/web/images/t2.jpg HTTP/1.1" 200 11516
+INFO 2020-05-06 14:24:29,342 basehttp 15920 15344 "GET /static/web/images/2.jpg HTTP/1.1" 200 105521
+INFO 2020-05-06 14:24:29,346 basehttp 15920 3304 "GET /static/web/js/move-top.js HTTP/1.1" 200 1331
+INFO 2020-05-06 14:24:29,354 basehttp 15920 8372 "GET /static/web/js/SmoothScroll.min.js HTTP/1.1" 200 13725
+INFO 2020-05-06 14:24:29,357 basehttp 15920 16372 "GET /static/image/k5.jpg HTTP/1.1" 200 61646
+INFO 2020-05-06 14:24:29,369 basehttp 15920 15216 "GET /static/image/k6.jpg HTTP/1.1" 200 53135
+INFO 2020-05-06 14:24:29,375 basehttp 15920 16172 "GET /static/web/js/easy-responsive-tabs.js HTTP/1.1" 200 6489
+INFO 2020-05-06 14:24:29,377 basehttp 15920 1232 "GET /static/image/k4.jpg HTTP/1.1" 200 41708
+INFO 2020-05-06 14:24:29,385 basehttp 15920 10972 "GET /static/web/js/jarallax.js HTTP/1.1" 200 14718
+INFO 2020-05-06 14:24:29,388 basehttp 15920 15824 "GET /static/web/css/bootstrap.css HTTP/1.1" 200 141622
+INFO 2020-05-06 14:24:29,537 basehttp 15920 7460 "GET /static/image/fon.jpg HTTP/1.1" 200 167229
+INFO 2020-05-06 14:24:29,589 basehttp 15920 8912 "GET /static/web/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+INFO 2020-05-06 14:24:29,590 basehttp 15920 9824 "GET /static/web/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 71896
+INFO 2020-05-06 14:24:29,643 basehttp 15920 14224 "GET /static/web/images/slide1.jpg HTTP/1.1" 200 44860
+INFO 2020-05-06 14:24:29,663 basehttp 15920 2420 "GET /static/web/images/close.png HTTP/1.1" 200 280
+INFO 2020-05-06 14:24:29,793 basehttp 15920 14376 "GET /static/web/images/img-sprite.png HTTP/1.1" 200 3205
+INFO 2020-05-06 14:24:29,852 basehttp 15920 10008 "GET /static/web/images/loading.gif HTTP/1.1" 200 8476
+INFO 2020-05-06 14:24:29,868 basehttp 15920 9248 "GET /static/web/images/banner.jpg HTTP/1.1" 200 174095
+INFO 2020-05-06 14:24:29,871 basehttp 15920 8384 "GET /static/web/images/sub.jpg HTTP/1.1" 200 346729
+INFO 2020-05-06 14:24:30,092 basehttp 15920 10556 "GET /static/web/images/move-up.png HTTP/1.1" 200 3407
+INFO 2020-05-06 14:24:39,301 basehttp 15920 15356 "GET / HTTP/1.1" 200 29544
+INFO 2020-05-06 14:24:39,374 basehttp 15920 3680 "GET /static/web/css/bootstrap.css HTTP/1.1" 200 141622
+INFO 2020-05-06 14:24:39,387 basehttp 15920 8740 "GET /static/web/css/lightbox.css HTTP/1.1" 200 4054
+INFO 2020-05-06 14:24:39,401 basehttp 15920 2272 "GET /static/web/css/font-awesome.css HTTP/1.1" 200 37414
+INFO 2020-05-06 14:24:39,406 basehttp 15920 8472 "GET /static/web/css/easy-responsive-tabs.css HTTP/1.1" 200 4680
+INFO 2020-05-06 14:24:39,413 basehttp 15920 14704 "GET /static/web/css/style.css HTTP/1.1" 200 48255
+INFO 2020-05-06 14:24:39,417 basehttp 15920 15956 "GET /static/web/js/jquery-2.2.3.min.js HTTP/1.1" 200 85659
+INFO 2020-05-06 14:24:39,419 basehttp 15920 6616 "GET /static/image/Karta.png HTTP/1.1" 200 62421
+INFO 2020-05-06 14:24:39,422 basehttp 15920 9404 "GET /static/image/fon2.jpg HTTP/1.1" 200 74078
+INFO 2020-05-06 14:24:39,456 basehttp 15920 10796 "GET /static/web/js/lightbox-plus-jquery.min.js HTTP/1.1" 200 93077
+INFO 2020-05-06 14:24:39,465 basehttp 15920 13280 "GET /static/web/js/easy-responsive-tabs.js HTTP/1.1" 200 6489
+INFO 2020-05-06 14:24:39,477 basehttp 15920 3076 "GET /static/web/js/index.js HTTP/1.1" 200 759
+INFO 2020-05-06 14:24:39,482 basehttp 15920 8120 "GET /static/web/js/jarallax.js HTTP/1.1" 200 14718
+INFO 2020-05-06 14:24:39,492 basehttp 15920 11180 "GET /static/web/js/SmoothScroll.min.js HTTP/1.1" 200 13725
+INFO 2020-05-06 14:24:39,502 basehttp 15920 3084 "GET /static/web/js/move-top.js HTTP/1.1" 200 1331
+INFO 2020-05-06 14:24:39,509 basehttp 15920 2972 "GET /static/web/js/easing.js HTTP/1.1" 200 4759
+INFO 2020-05-06 14:24:39,514 basehttp 15920 8908 "GET /static/web/js/bootstrap.js HTTP/1.1" 200 67546
+INFO 2020-05-06 14:24:39,551 basehttp 15920 496 "GET /static/image/068.jpg HTTP/1.1" 200 45056
+INFO 2020-05-06 14:24:39,560 basehttp 15920 13852 "GET /static/image/k1.jpg HTTP/1.1" 200 42550
+INFO 2020-05-06 14:24:39,570 basehttp 15920 10596 "GET /static/image/k2.jpg HTTP/1.1" 200 72384
+INFO 2020-05-06 14:24:39,571 basehttp 15920 8420 "GET /static/image/k3.jpg HTTP/1.1" 200 69452
+INFO 2020-05-06 14:24:39,580 basehttp 15920 9336 "GET /static/image/k4.jpg HTTP/1.1" 200 41708
+INFO 2020-05-06 14:24:39,587 basehttp 15920 12056 "GET /static/image/k5.jpg HTTP/1.1" 200 61646
+INFO 2020-05-06 14:24:39,596 basehttp 15920 11040 "GET /static/image/k6.jpg HTTP/1.1" 200 53135
+INFO 2020-05-06 14:24:39,602 basehttp 15920 10272 "GET /static/image/k7.jpg HTTP/1.1" 200 68268
+INFO 2020-05-06 14:24:39,607 basehttp 15920 15804 "GET /static/image/k8.jpg HTTP/1.1" 200 72895
+INFO 2020-05-06 14:24:39,616 basehttp 15920 3204 "GET /static/web/images/g7.jpg HTTP/1.1" 200 35325
+INFO 2020-05-06 14:24:39,622 basehttp 15920 9652 "GET /static/web/images/g5.jpg HTTP/1.1" 200 57411
+INFO 2020-05-06 14:24:39,632 basehttp 15920 15504 "GET /static/web/images/t1.jpg HTTP/1.1" 200 14593
+INFO 2020-05-06 14:24:39,641 basehttp 15920 15484 "GET /static/web/images/t2.jpg HTTP/1.1" 200 11516
+INFO 2020-05-06 14:24:39,650 basehttp 15920 10644 "GET /static/web/images/t3.jpg HTTP/1.1" 200 83507
+INFO 2020-05-06 14:24:39,656 basehttp 15920 652 "GET /static/web/images/t4.jpg HTTP/1.1" 200 17575
+INFO 2020-05-06 14:24:39,658 basehttp 15920 2064 "GET /static/web/images/2.jpg HTTP/1.1" 200 105521
+INFO 2020-05-06 14:24:39,667 basehttp 15920 10452 "GET /static/image/fon.jpg HTTP/1.1" 200 167229
+INFO 2020-05-06 14:24:39,675 basehttp 15920 5416 "GET /static/web/images/banner.jpg HTTP/1.1" 200 174095
+INFO 2020-05-06 14:24:39,684 basehttp 15920 9004 "GET /static/web/images/slide1.jpg HTTP/1.1" 200 44860
+INFO 2020-05-06 14:24:39,924 basehttp 15920 2548 "GET /static/web/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 71896
+INFO 2020-05-06 14:24:39,988 basehttp 15920 8024 "GET /static/web/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+INFO 2020-05-06 14:24:40,048 basehttp 15920 12996 "GET /static/web/images/img-sprite.png HTTP/1.1" 200 3205
+INFO 2020-05-06 14:24:40,050 basehttp 15920 7972 "GET /static/web/images/loading.gif HTTP/1.1" 200 8476
+INFO 2020-05-06 14:24:40,055 basehttp 15920 6612 "GET /static/web/images/close.png HTTP/1.1" 200 280
+INFO 2020-05-06 14:24:40,062 basehttp 15920 13100 "GET /static/web/images/sub.jpg HTTP/1.1" 200 346729
+INFO 2020-05-06 14:24:40,276 basehttp 15920 15048 "GET /static/web/images/move-up.png HTTP/1.1" 200 3407
+WARNING 2020-05-06 14:24:40,743 base 15920 3268 Not Found: /favicon.ico
+WARNING 2020-05-06 14:24:40,747 basehttp 15920 3268 "GET /favicon.ico HTTP/1.1" 404 2662
+INFO 2020-05-06 14:25:05,244 basehttp 15920 6788 "GET / HTTP/1.1" 200 29544
+INFO 2020-05-06 14:25:05,736 basehttp 15920 14232 "GET /static/web/css/bootstrap.css HTTP/1.1" 200 141622
+INFO 2020-05-06 14:25:05,828 basehttp 15920 6664 "GET /static/web/css/easy-responsive-tabs.css HTTP/1.1" 200 4680
+INFO 2020-05-06 14:25:05,884 basehttp 15920 4008 "GET /static/web/css/font-awesome.css HTTP/1.1" 200 37414
+INFO 2020-05-06 14:25:05,906 basehttp 15920 14460 "GET /static/web/css/lightbox.css HTTP/1.1" 200 4054
+INFO 2020-05-06 14:25:05,921 basehttp 15920 14896 "GET /static/web/css/style.css HTTP/1.1" 200 48255
+INFO 2020-05-06 14:25:05,935 basehttp 15920 15092 "GET /static/web/js/jquery-2.2.3.min.js HTTP/1.1" 200 85659
+INFO 2020-05-06 14:25:06,015 basehttp 15920 3088 "GET /static/web/js/lightbox-plus-jquery.min.js HTTP/1.1" 200 93077
+INFO 2020-05-06 14:25:06,037 basehttp 15920 14488 "GET /static/web/js/easy-responsive-tabs.js HTTP/1.1" 200 6489
+INFO 2020-05-06 14:25:06,086 basehttp 15920 1752 "GET /static/web/js/index.js HTTP/1.1" 200 759
+INFO 2020-05-06 14:25:06,090 basehttp 15920 15704 "GET /static/web/js/jarallax.js HTTP/1.1" 200 14718
+INFO 2020-05-06 14:25:06,099 basehttp 15920 13876 "GET /static/web/js/SmoothScroll.min.js HTTP/1.1" 200 13725
+INFO 2020-05-06 14:25:06,108 basehttp 15920 14552 "GET /static/web/js/move-top.js HTTP/1.1" 200 1331
+INFO 2020-05-06 14:25:06,109 basehttp 15920 11568 "GET /static/web/js/easing.js HTTP/1.1" 200 4759
+INFO 2020-05-06 14:25:06,122 basehttp 15920 11212 "GET /static/web/js/bootstrap.js HTTP/1.1" 200 67546
+INFO 2020-05-06 14:25:06,128 basehttp 15920 9148 "GET /static/image/Karta.png HTTP/1.1" 200 62421
+INFO 2020-05-06 14:25:06,143 basehttp 15920 9480 "GET /static/image/fon2.jpg HTTP/1.1" 200 74078
+INFO 2020-05-06 14:25:06,161 basehttp 15920 12992 "GET /static/image/068.jpg HTTP/1.1" 200 45056
+INFO 2020-05-06 14:25:06,163 basehttp 15920 15992 "GET /static/image/k1.jpg HTTP/1.1" 200 42550
+INFO 2020-05-06 14:25:06,167 basehttp 15920 3332 "GET /static/image/k2.jpg HTTP/1.1" 200 72384
+INFO 2020-05-06 14:25:06,174 basehttp 15920 2440 "GET /static/image/k3.jpg HTTP/1.1" 200 69452
+INFO 2020-05-06 14:25:06,179 basehttp 15920 14920 "GET /static/image/k4.jpg HTTP/1.1" 200 41708
+INFO 2020-05-06 14:25:06,188 basehttp 15920 12272 "GET /static/image/k5.jpg HTTP/1.1" 200 61646
+INFO 2020-05-06 14:25:06,194 basehttp 15920 16096 "GET /static/image/k6.jpg HTTP/1.1" 200 53135
+INFO 2020-05-06 14:25:06,208 basehttp 15920 252 "GET /static/image/k7.jpg HTTP/1.1" 200 68268
+INFO 2020-05-06 14:25:06,213 basehttp 15920 1952 "GET /static/image/k8.jpg HTTP/1.1" 200 72895
+INFO 2020-05-06 14:25:06,220 basehttp 15920 7256 "GET /static/web/images/g7.jpg HTTP/1.1" 200 35325
+INFO 2020-05-06 14:25:06,235 basehttp 15920 16140 "GET /static/web/images/g5.jpg HTTP/1.1" 200 57411
+INFO 2020-05-06 14:25:06,260 basehttp 15920 3788 "GET /static/web/images/t1.jpg HTTP/1.1" 200 14593
+INFO 2020-05-06 14:25:06,262 basehttp 15920 5368 "GET /static/web/images/t2.jpg HTTP/1.1" 200 11516
+INFO 2020-05-06 14:25:06,274 basehttp 15920 13740 "GET /static/web/images/t3.jpg HTTP/1.1" 200 83507
+INFO 2020-05-06 14:25:06,292 basehttp 15920 12080 "GET /static/web/images/t4.jpg HTTP/1.1" 200 17575
+INFO 2020-05-06 14:25:06,308 basehttp 15920 3440 "GET /static/web/images/2.jpg HTTP/1.1" 200 105521
+INFO 2020-05-06 14:25:06,320 basehttp 15920 15476 "GET /static/image/fon.jpg HTTP/1.1" 200 167229
+INFO 2020-05-06 14:25:06,334 basehttp 15920 14916 "GET /static/web/images/banner.jpg HTTP/1.1" 200 174095
+INFO 2020-05-06 14:25:06,349 basehttp 15920 6296 "GET /static/web/images/slide1.jpg HTTP/1.1" 200 44860
+INFO 2020-05-06 14:25:06,489 basehttp 15920 16220 "GET /static/web/images/loading.gif HTTP/1.1" 200 8476
+INFO 2020-05-06 14:25:06,516 basehttp 15920 14720 "GET /static/web/images/img-sprite.png HTTP/1.1" 200 3205
+INFO 2020-05-06 14:25:06,531 basehttp 15920 9248 "GET /static/web/images/close.png HTTP/1.1" 200 280
+INFO 2020-05-06 14:25:06,547 basehttp 15920 4968 "GET /static/web/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 71896
+INFO 2020-05-06 14:25:06,568 basehttp 15920 14244 "GET /static/web/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+INFO 2020-05-06 14:25:06,812 basehttp 15920 6664 "GET /static/web/images/sub.jpg HTTP/1.1" 200 346729
+INFO 2020-05-06 14:25:07,114 basehttp 15920 15092 "GET /static/web/images/move-up.png HTTP/1.1" 200 3407
+WARNING 2020-05-06 14:25:08,183 base 15920 4968 Not Found: /favicon.ico
+WARNING 2020-05-06 14:25:08,187 basehttp 15920 4968 "GET /favicon.ico HTTP/1.1" 404 2662
+INFO 2020-05-06 15:17:14,524 basehttp 15920 14344 "GET / HTTP/1.1" 200 29544
+INFO 2020-05-06 15:17:14,649 basehttp 15920 16088 "GET /static/web/css/style.css HTTP/1.1" 304 0
+INFO 2020-05-06 15:17:14,787 basehttp 15920 12060 "GET /static/web/images/img-sprite.png HTTP/1.1" 200 3205
+INFO 2020-05-06 15:17:14,791 basehttp 15920 13384 "GET /static/web/images/loading.gif HTTP/1.1" 200 8476
+INFO 2020-05-06 15:17:14,793 basehttp 15920 10660 "GET /static/web/images/banner.jpg HTTP/1.1" 200 174095
+INFO 2020-05-06 15:17:14,906 basehttp 15920 11224 "GET /static/web/images/sub.jpg HTTP/1.1" 200 346729
+INFO 2020-05-06 15:17:28,075 basehttp 15920 3356 "GET / HTTP/1.1" 200 29544
+INFO 2020-05-06 15:17:28,140 basehttp 15920 4268 "GET /static/web/css/style.css HTTP/1.1" 304 0
+WARNING 2020-05-06 15:17:29,531 base 15920 4136 Not Found: /favicon.ico
+WARNING 2020-05-06 15:17:29,534 basehttp 15920 4136 "GET /favicon.ico HTTP/1.1" 404 2662
+INFO 2020-05-06 15:17:40,090 basehttp 15920 4084 "POST / HTTP/1.1" 200 29544
+INFO 2020-05-06 15:30:19,990 basehttp 3152 2956 "GET / HTTP/1.1" 200 29544
+INFO 2020-05-06 15:30:20,060 basehttp 3152 10004 "GET /static/web/css/style.css HTTP/1.1" 304 0
+INFO 2020-05-06 15:30:27,780 basehttp 3152 15380 "POST / HTTP/1.1" 200 29544
